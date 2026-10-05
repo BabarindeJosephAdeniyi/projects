@@ -5,15 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
 </head>
 <body>
-    <h2>Hello World</h2>
-        <h2>Hello World</h2>
-    <h2>Hello World</h2>
-    <h2>Hello World</h2>
-    <h2>Hello World</h2>
-    <h2>Hello World</h2>
-    <h2>Hello World</h2>
 
+<nav class="bg-gray-900 text-white">
+
+    <div class="max-w-6xl mx-auto px-4 py-4">
+
+        <!-- Checkbox -->
+        <input
+            type="checkbox"
+            id="menu-toggle"
+            class="peer hidden"
+        >
+
+        <!-- Navbar -->
+        <div class="flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold">
+                Joscoder
+            </h1>
+
+            <!-- Hamburger -->
+            <label
+                for="menu-toggle"
+                class="md:hidden text-3xl cursor-pointer"
+            >
+                ☰
+            </label>
+
+            <!-- Desktop links -->
+            <div class="hidden md:flex gap-6">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="hidden peer-checked:block md:hidden">
+            <a href="#" class="block py-2">Home</a>
+            <a href="#" class="block py-2">About</a>
+            <a href="#" class="block py-2">Services</a>
+            <a href="#" class="block py-2">Contact</a>
+        </div>
+
+    </div>
+
+</nav>
+
+</nav>
+    <h2 class="bg-red-500 py-4">Hello World</h2>
+
+    <div class="relative w-80 bg-white rounded-xl shadow-lg p-6 pt-16">
+
+    <!-- Profile picture -->
+    <img
+        src=""
+        class="absolute w-24 h-24 rounded-full object-cover lg:rounded -top-12 left-1/2 -translate-x-1/2"
+        alt="Profile"
+    >
+
+    <h2 class="text-center text-xl font-bold">
+John Smiths    </h2>
+
+    <p class="text-center text-gray-500">
+        Frontend Developer
+    </p>
+
+</div>
+    <button class="bg-blue-500 p-2 text-white m-4 rounded">Click Me </button>
+        <button class="bg-blue-500 p-2 text-white m-4 rounded-md">Click Me </button>
+    <button class="bg-blue-500 p-2 text-white m-4 rounded-lg">Click Me </button>
+    <button class="bg-blue-500 p-2 text-white m-4 rounded-xl">Click Me </button>
+    <button class="bg-blue-500 p-2 text-white m-4 rounded-full">Click Me </button>
+
+
+    <div class="p-4 bg-red-900 text-orange-500 rounded-r-full mx-4">Add to cart</div>
+        <!-- <h2>Hello World</h2> -->
+    <p class="bg-green-500 text-xs text-left w-1/2 m-4">Hello World</p>
+    <p class="bg-red-900 text-sm m-4">Hello World</p>
+    <p class="bg-blue-500 text-base m-4">Hello World</p>
+    <p class="bg-blue-500 text-lg m-4 text-center">Hello World</p>
+        <p class="bg-blue-500 text-xl m-4">Hello World</p>
+    <p class="bg-blue-500 text-2xl m-4">Hello World</p>
+    <p class="bg-blue-500 text-3xl  text-right m-4">Hello World</p>
+    <p class="bg-blue-500 text-4xl m-4 font-bold">Hello World</p><br>
+
+    <p class="border-4 border-green-900 divide-x-6">OICHUB</p><br>
+    <p class="border-6 border-dotted">Tailwind</p><br>
+        <p class="border-t-4">Tailwind</p><br>
+    <p class="border-r-6 border-double">Tailwind</p><br>
+    <p class="border-3 border-red-700">Tailwind</p><br>
+    <p class="border-l-6">Tailwind</p>
+    <br><br><br><br><br>
+
+    <div class="flex divide-x-6">
+        <p >1</p>
+        <p class="">2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>
+<br><br><br><br><br>
+<!-- <div class="shadow-2xl">TAILWIND</div>
+<div class="shadow-sm">TAILWIND</div>
+<div class="shadow-xl/20">TAILWIND</div>
+<div class="shadow-md">TAILWIND</div> -->
+
+
+<div>
+        <div class="w-2/4 p-6 bg-white rounded-xl shadow-lg">
+                     <h2 class="text-2xl font-bold text-gray-900">My Card </h2>
+
+                    <p class="mt-3 text-gray-600">
+                        This is a simple Tailwind card.
+                    </p>
+
+                        <button class="mt-5 px-5 py-2 bg-blue-600 text-white rounded-lg">
+                            Learn More
+                        </button>
+        </div>
+    
+</div>
+
+<br><br><br><br><br><br>
+<nav class="flex justify-between items-center bg-black text-white px-6 py-6 text-lg" >
+    <p>👨‍🍳BITE</p>
+    <ul class="flex gap-6 list-none">
+        <li  data-aos="zoom-in-down">Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+        <li>Blog</li>
+    </ul>
+</nav>
+
+
+<div class="flex justify-between gap-6 flex-wrap">
+    <div class="bg-blue-500 w-25">BOX1</div>
+        <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="w-25 bg-blue-500 flex-2">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div data-aos="zoom-in-right class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25 flex-1">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+        <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+    <div class="bg-blue-500 w-25">BOX1</div>
+
+
+</div>
+
+
+
+<div class="flex gap-1">
+    <div class="w-25 bg-blue-900">1</div>
+    <div class="w-50 bg-blue-900">2</div>
+    <div class="w-25 flex-1 bg-blue-900">3</div>
+</div>
+
+<br><br><br><br><br>
+<div class="grid bg-blue-500 grid-cols-3 box-one">
+    <div>1</div>
+    <div>2</div>
+    <div data-aos="zoom-out-right">3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div>
+
+
+<br><br><br><br><br><br>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

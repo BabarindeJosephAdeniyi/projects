@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,4 +8,9 @@ h2 {
     color:red;
     background-color: blue;
     padding: 20px 30px;
+} */
+
+
+.box-one {
+    
 }
